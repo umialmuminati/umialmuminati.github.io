@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Noto+Sans+JP&display=swap');
+
+.content-pertama{
+	background-color: #A59EB1;
+	height: 65vh;
+}
+
+.text-projects{
+	font-size: 5em;
+	text-align: center;
+	transform: translate(0%,100%);
+	color: #5e5d5b;
+}
+
+.my-work{
+	text-align: center;
+	transform: translate(0%,800%);
+	color: #5e5d5b;
+}
+
+.box1, .box-reverse1{
+	background-color: #90604C;
+	height: 54vh;
+	width: 55%;
+	padding: 1em;
+	margin: 3em 4em;
+}
+
+.box-reverse1{
+	transform: translate(-0%,-110%);
+	float: right;
+	margin-right: 6em;
+}
+
+.box2, .box-reverse2, .box-reverse3{
+	background-color: #F9DECE;
+	width: 25%;
+	height: 54vh;
+	padding: 1em;
+	transform: translate(240%, -112.5%);
+}
+
+.box-reverse2{
+	transform: translate(17%, -97.5%);
+}
+
+.box2 p, .box-reverse2 p{
+	margin: 2em 2em;
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+.box-reverse3 p{
+	margin: 7em 5em;
+	text-align: justify;
+	text-indent: 1.5em;
+}
+
+.brand-logo, .brand-logo-reverse{
+	width: 18em;
+	background-color: #cccbc8;
+	transform: translate(140%,-92%);
+}
+
+.brand-logo-reverse{
+	transform: translate(15%, -172%);
+}
+
+.project-name, .project-name-reverse{
+	color: white;
+	font-size: 4em;
+	margin: 0.5em 0.5em;
+}
+
+.project-name-reverse{
+	float: right;
+	margin: 0.5em 1em;
+}
+
+.vertical-line{
+	border-left: 3px solid white;
+	height: 10em;
+	margin: 0em 10em;
+}
+
+.vertical-line-reverse{
+	border-left: 3px solid white;
+	height: 7em;
+	margin: 13em 35em;
+}
+
+.vertical-line-reverse2{
+	border-left: 3px solid white;
+	height: 10em;
+	margin: 0em 6.7em;
+}

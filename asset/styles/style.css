@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	background-color: #f5f3f2;
+	padding: 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin: 0 10px;
+}
+
+nav a{
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+	font-weight: bold;
+}
+
+.my-name{
+	margin-right: 2em;
+	font-size: 2.5em;
+	font-family: 'Dancing Script';
+	color: #CC533E;
+}
+
+.container-content-one{
+	background-color: #FF8F84;
+	height: 75vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.image-decor img{
+	transform: translate(-0%,20%);
+	height: 20em;
+}
+
+.content-text{
+	color: white;
+	font-size: 5em;
+	margin-left: 0.4em;
+	padding: 40px;
+	font-family: 'Noto Sans JP';
+}
+
+.content-text p{
+	font-size: 12px;
+}
+
+.content-text-two{
+	float: right;
+	font-size: 3em;
+	font-family: 'Noto Sans JP';
+	transform: translate(-150%,-50%);
+}
+
+.content-text-two p{
+	font-size: 12px;
+}
+
+/*.content-image img{
+	border-top-right-radius: 30em;
+	border-top-left-radius: 30em; 
+}*/
+
+.content-image img,
+.content-image-two img{
+	height: 35em;
+	margin-top: 4em;
+	margin-right: 3em;
+	/*background-color: #cccbc8;*/
+}
+
+.content-image-two{
+	border: 2px solid #F1B39C;
+	transform: translate(50%,61%);
+	width: 23em;
+	height: 35em;
+}
+
+.content-image-two img{
+	transform: translate(10%,-5%);
+}
+
+.learn-more-button, .learn-more-button-two{
+	font-size: 12px; 
+	background-color: #F1B39C;
+	transform: translate(-0%,-230%);
+	border: none;
+	height: 30px;
+	width: 100px;
+	cursor: pointer;
+	color: black;
+}
+
+.learn-more-button-two{
+	transform: translate(0%,-100%);
+}
+
+.arrow img{
+	margin-top: 8em;
+	float: right;
+	margin-right: 20em;
+}
+
+footer{
+	margin-top: 30em;
+	padding: 65px;
+	background-color: #212121;
+}
+
+.copy-right{
+	margin-top: 80px;
+	float: right;
+	color: white;
+}
+
+.contact-me{
+	color: white;
+	transform: translate(0%,-250%);
+	margin: 1em 0;
+}

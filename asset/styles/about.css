@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Noto+Sans+JP&display=swap');
+
+body{
+	background-color: #F9DECE;
+	height: 100vh;
+}
+
+.content-about-me{
+	width: 100%;
+}
+
+.content-profile{
+	padding: 5em;
+	height: 100vh;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.text{
+	font-family: 'Noto Sans JP';
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text p{
+	margin-left: 2em;
+}
+
+.text2{
+	font-family: 'Noto Sans JP';
+}
+
+.text1{
+	font-family: 'Noto Sans JP';
+	font-size: 5em; 
+	margin-left: 5.8em;
+}
+
+.image img{
+	height: 35em;
+}
+
+.image-decor2{
+	transform: translate(-78%,-7.5%);
+}
